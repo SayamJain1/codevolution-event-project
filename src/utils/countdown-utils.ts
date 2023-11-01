@@ -1,6 +1,6 @@
 export const calculateTimeToEvent = () => {
     // time is nov 12, 2025, 9am pacific time
-    const eventDate = new Date("2023-11-12T09:00:00-07:00");
+    const eventDate = new Date("2023-12-30T09:00:00-07:00");
     const currentDate = new Date()
     const timeRemaining = eventDate.getTime() - currentDate.getTime()
 
